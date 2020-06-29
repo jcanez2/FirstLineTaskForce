@@ -18,7 +18,8 @@ class AugmentedImageNode(
     var image: AugmentedImage? = null
 
     private var modelCompletableFuture = ModelRenderable. builder()
-        .setSource(context, R.raw.beedrill)
+        //.setSource(context, R.raw.beedrill)
+        .setSource(context, R.raw.cube)
         .build()
     private lateinit var renderable: ModelRenderable
 
@@ -55,7 +56,8 @@ class AugmentedImageNode(
         if(renderable.animationDataCount == 0){
             return
         }
-        val animationData = renderable.getAnimationData("beedrill")
+        //val animationData = renderable.getAnimationData("beedrill")
+        val animationData = renderable.getAnimationData("cube")
         ModelAnimator(animationData, renderable).apply {
             repeatCount = ModelAnimator.INFINITE
             start()

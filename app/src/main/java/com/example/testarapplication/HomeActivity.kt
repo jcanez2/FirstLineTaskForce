@@ -10,7 +10,7 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-        val button = findViewById<Button>(R.id.button)//add button color
+        val button = findViewById<Button>(R.id.button)
         button.setOnClickListener{
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)

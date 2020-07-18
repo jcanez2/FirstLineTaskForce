@@ -13,4 +13,23 @@
         android:layout_height="match_parent"
          />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:background="@drawable/back_button"
+        android:soundEffectsEnabled="true"
+        android:text="Back >"
+        android:layout_gravity="top|right"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:paddingTop="15dp"
+        android:paddingRight="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.664" />
+
 </FrameLayout>

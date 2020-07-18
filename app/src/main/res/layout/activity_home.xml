@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/darker_gray"
+    android:background="@drawable/background"
     tools:context=".HomeActivity">
 
     <TextView
@@ -29,10 +29,11 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="159dp"
-        android:layout_height="63dp"
-        android:backgroundTint="#0E0D0D"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@drawable/custom_button"
         android:soundEffectsEnabled="true"
+        android:textAllCaps="false"
         android:text="AR Fun!"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
@@ -40,5 +41,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.487" />
+        app:layout_constraintVertical_bias="0.664" />
 </androidx.constraintlayout.widget.ConstraintLayout>
